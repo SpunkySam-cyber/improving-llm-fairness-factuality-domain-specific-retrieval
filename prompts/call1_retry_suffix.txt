@@ -1,0 +1,2 @@
+VALIDATION RETRY:
+Your previous response was rejected because [VALIDATION ERROR]. Re-read the original transcript chunk and position guide above. Return only valid word-list lines in the exact required format, or NO ERRORS.

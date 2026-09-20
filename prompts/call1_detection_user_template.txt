@@ -1,0 +1,12 @@
+TRANSCRIPT CHUNK:
+<transcript start_word="[START_WORD]" end_word="[END_WORD]">
+[FULL ASSEMBLYAI TRANSCRIPT CHUNK]
+</transcript>
+
+WORD POSITION GUIDE:
+[START_WORD] [word at that global one-based position]
+[START_WORD + 1] [next word]
+...
+[END_WORD] [last word in this chunk]
+
+Identify every incorrectly transcribed Islamic/Arabic term, Quranic phrase, proper noun, or honorific in this transcript chunk. Use the global indexes in the WORD POSITION GUIDE. Return only entries in the exact format required by the system prompt, or NO ERRORS.

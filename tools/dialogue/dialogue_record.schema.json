@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Abdal Hakim Murad dialogue exchange",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "video_id",
+    "url",
+    "content_type",
+    "exchange_index",
+    "question",
+    "answer",
+    "question_start_seconds",
+    "question_end_seconds",
+    "answer_start_seconds",
+    "answer_end_seconds",
+    "answer_speaker",
+    "speaker_attribution_method"
+  ],
+  "properties": {
+    "video_id": {"type": "string", "minLength": 1},
+    "url": {"type": "string", "minLength": 1},
+    "content_type": {
+      "enum": ["qa", "interview", "discussion", "mixed_event"]
+    },
+    "exchange_index": {"type": "integer", "minimum": 1},
+    "questioner": {"type": ["string", "null"]},
+    "question": {"type": "string", "minLength": 1},
+    "answer": {"type": "string", "minLength": 1},
+    "question_start_seconds": {"type": "number", "minimum": 0},
+    "question_end_seconds": {"type": "number", "exclusiveMinimum": 0},
+    "answer_start_seconds": {"type": "number", "minimum": 0},
+    "answer_end_seconds": {"type": "number", "exclusiveMinimum": 0},
+    "answer_speaker": {"const": "Abdal Hakim Murad"},
+    "speaker_attribution_method": {
+      "enum": [
+        "assemblyai_diarization_plus_manual_mapping",
+        "manual",
+        "gemini_caption_context_pending_manual",
+        "gemini_fresh_asr_context_pending_manual"
+      ]
+    },
+    "source_transcript": {
+      "enum": ["youtube_caption", "fresh_asr_corrected", "fresh_asr_raw"]
+    },
+    "review_status": {"enum": ["pending", "verified", "edited", "rejected"]}
+  }
+}

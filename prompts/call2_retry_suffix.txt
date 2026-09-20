@@ -1,0 +1,2 @@
+VALIDATION RETRY:
+Your previous result was rejected because [GUARDRAIL FAILURE]. Start again from the original transcript chunk above and make fewer, strictly targeted corrections.

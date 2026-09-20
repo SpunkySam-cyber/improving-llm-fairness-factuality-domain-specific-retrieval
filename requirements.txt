@@ -1,0 +1,5 @@
+-r requirements/core.txt
+-r requirements/v6.txt
+
+# Dataset tools only (tools/dataset/verify_corrections_offline.py)
+numpy>=2,<3

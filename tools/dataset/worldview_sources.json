@@ -1,0 +1,60 @@
+{
+  "pilot_size": 1,
+  "lecture_rules": {
+    "minimum_duration_seconds": 1200,
+    "pilot_excluded_title_patterns": [],
+    "excluded_title_patterns": [
+      "\\bshorts?\\b",
+      "\\bclips?\\b",
+      "\\btrailers?\\b",
+      "\\bpromo(?:tional)?\\b"
+    ]
+  },
+  "sources": [
+    {
+      "name": "Worldview search - Abdal Hakim Murad interview",
+      "url": "ytsearch1000:Abdal Hakim Murad interview",
+      "speaker_patterns": ["\\babdal\\s+hakim\\s+murad\\b", "\\babdul\\s+hakim\\s+murad\\b", "\\btimothy\\s+winter\\b"]
+    },
+    {
+      "name": "Worldview search - Abdal Hakim Murad Q&A",
+      "url": "ytsearch1000:Abdal Hakim Murad Q&A",
+      "speaker_patterns": ["\\babdal\\s+hakim\\s+murad\\b", "\\babdul\\s+hakim\\s+murad\\b", "\\btimothy\\s+winter\\b"]
+    },
+    {
+      "name": "Worldview search - Abdal Hakim Murad conversation",
+      "url": "ytsearch1000:Abdal Hakim Murad conversation",
+      "speaker_patterns": ["\\babdal\\s+hakim\\s+murad\\b", "\\babdul\\s+hakim\\s+murad\\b", "\\btimothy\\s+winter\\b"]
+    },
+    {
+      "name": "Worldview search - Abdal Hakim Murad discussion",
+      "url": "ytsearch1000:Abdal Hakim Murad discussion",
+      "speaker_patterns": ["\\babdal\\s+hakim\\s+murad\\b", "\\babdul\\s+hakim\\s+murad\\b", "\\btimothy\\s+winter\\b"]
+    },
+    {
+      "name": "Worldview search - Abdal Hakim Murad podcast",
+      "url": "ytsearch1000:Abdal Hakim Murad podcast",
+      "speaker_patterns": ["\\babdal\\s+hakim\\s+murad\\b", "\\babdul\\s+hakim\\s+murad\\b", "\\btimothy\\s+winter\\b"]
+    },
+    {
+      "name": "Worldview search - Abdal Hakim Murad panel dialogue",
+      "url": "ytsearch1000:Abdal Hakim Murad panel dialogue",
+      "speaker_patterns": ["\\babdal\\s+hakim\\s+murad\\b", "\\babdul\\s+hakim\\s+murad\\b", "\\btimothy\\s+winter\\b"]
+    },
+    {
+      "name": "Worldview search - Timothy Winter interview",
+      "url": "ytsearch1000:Timothy Winter Islam interview",
+      "speaker_patterns": ["\\babdal\\s+hakim\\s+murad\\b", "\\babdul\\s+hakim\\s+murad\\b", "\\btimothy\\s+winter\\b"]
+    },
+    {
+      "name": "Worldview search - Timothy Winter Q&A",
+      "url": "ytsearch1000:Timothy Winter Islam Q&A",
+      "speaker_patterns": ["\\babdal\\s+hakim\\s+murad\\b", "\\babdul\\s+hakim\\s+murad\\b", "\\btimothy\\s+winter\\b"]
+    },
+    {
+      "name": "Worldview search - religious and world views",
+      "url": "ytsearch1000:Abdal Hakim Murad religion worldview",
+      "speaker_patterns": ["\\babdal\\s+hakim\\s+murad\\b", "\\babdul\\s+hakim\\s+murad\\b", "\\btimothy\\s+winter\\b"]
+    }
+  ]
+}

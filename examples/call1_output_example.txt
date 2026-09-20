@@ -1,0 +1,2 @@
+INCORRECT: hadeeth | POSITION: 24 | CORRECT: hadith | REASON: standard transliteration
+INCORRECT: eeman | POSITION: 29 | CORRECT: iman | REASON: standard transliteration

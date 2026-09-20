@@ -1,0 +1,10 @@
+TRANSCRIPT CHUNK:
+<transcript start_word="[START_WORD]" end_word="[END_WORD]">
+[FULL ASSEMBLYAI TRANSCRIPT CHUNK]
+</transcript>
+
+WORD LIST FOR THIS CHUNK:
+[ONLY CALL 1 ENTRIES WHOSE POSITIONS FALL IN THIS CHUNK, OR NO LISTED ERRORS]
+
+INSTRUCTION:
+Apply corrections from the word list at the stated positions where supported by context. Fix only listed or equally clear Islamic/Arabic ASR errors. Return only the complete corrected transcript chunk, with all unrelated wording preserved verbatim.

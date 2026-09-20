@@ -1,0 +1,163 @@
+{
+  "pilot_size": 10,
+  "lecture_rules": {
+    "minimum_duration_seconds": 600,
+    "pilot_excluded_title_patterns": [
+      "\\bmurad\\s*&\\s+[a-z]"
+    ],
+    "excluded_title_patterns": [
+      "\\bshorts?\\b",
+      "\\bclips?\\b",
+      "\\btrailers?\\b",
+      "\\bpromo(?:tional)?\\b",
+      "\\bcampaign trailer\\b",
+      "\\bgiving ceremony\\b"
+    ]
+  },
+  "sources": [
+    {
+      "name": "Cambridge Central Mosque",
+      "url": "https://www.youtube.com/@CambridgeCentralMosque/videos",
+      "speaker_patterns": [
+        "\\babdal\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakeem\\s+murad\\b",
+        "\\bhakim\\s+murad\\b",
+        "\\bhakeem\\s+murad\\b",
+        "\\btimothy\\s+winter\\b"
+      ]
+    },
+    {
+      "name": "Cambridge Muslim College",
+      "url": "https://www.youtube.com/channel/UC6ApDIST7zf1jyo9V2GXyag/videos",
+      "speaker_patterns": [
+        "\\babdal\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakeem\\s+murad\\b",
+        "\\bhakim\\s+murad\\b",
+        "\\bhakeem\\s+murad\\b",
+        "\\btimothy\\s+winter\\b"
+      ]
+    },
+    {
+      "name": "Islam On Demand",
+      "url": "https://www.youtube.com/channel/UCjzJflFF-9Xr_2P0oNj_Rdg/videos",
+      "speaker_patterns": [
+        "\\babdal\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakeem\\s+murad\\b",
+        "\\bhakim\\s+murad\\b",
+        "\\bhakeem\\s+murad\\b",
+        "\\btimothy\\s+winter\\b"
+      ]
+    },
+    {
+      "name": "Jamia Al-Karam",
+      "url": "https://www.youtube.com/channel/UCPqbenvYifVdM3OiuWFycWA/videos",
+      "speaker_patterns": [
+        "\\babdal\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakeem\\s+murad\\b",
+        "\\bhakim\\s+murad\\b",
+        "\\bhakeem\\s+murad\\b",
+        "\\btimothy\\s+winter\\b"
+      ]
+    },
+    {
+      "name": "YouTube search - Abdal Hakim Murad",
+      "url": "ytsearch1000:Abdal Hakim Murad",
+      "speaker_patterns": [
+        "\\babdal\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakeem\\s+murad\\b",
+        "\\bhakim\\s+murad\\b",
+        "\\bhakeem\\s+murad\\b",
+        "\\btimothy\\s+winter\\b"
+      ]
+    },
+    {
+      "name": "YouTube search - Abdul Hakim Murad",
+      "url": "ytsearch1000:Abdul Hakim Murad",
+      "speaker_patterns": [
+        "\\babdal\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakeem\\s+murad\\b",
+        "\\bhakim\\s+murad\\b",
+        "\\bhakeem\\s+murad\\b",
+        "\\btimothy\\s+winter\\b"
+      ]
+    },
+    {
+      "name": "YouTube search - Abdul Hakeem Murad",
+      "url": "ytsearch1000:Abdul Hakeem Murad",
+      "speaker_patterns": [
+        "\\babdal\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakeem\\s+murad\\b",
+        "\\bhakim\\s+murad\\b",
+        "\\bhakeem\\s+murad\\b",
+        "\\btimothy\\s+winter\\b"
+      ]
+    },
+    {
+      "name": "YouTube search - Timothy Winter Islam",
+      "url": "ytsearch1000:Timothy Winter Islam lecture",
+      "speaker_patterns": [
+        "\\babdal\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakeem\\s+murad\\b",
+        "\\bhakim\\s+murad\\b",
+        "\\bhakeem\\s+murad\\b",
+        "\\btimothy\\s+winter\\b"
+      ]
+    },
+    {
+      "name": "YouTube search - Sheikh Abdal Hakim Murad",
+      "url": "ytsearch1000:Sheikh Abdal Hakim Murad",
+      "speaker_patterns": [
+        "\\babdal\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakeem\\s+murad\\b",
+        "\\bhakim\\s+murad\\b",
+        "\\bhakeem\\s+murad\\b",
+        "\\btimothy\\s+winter\\b"
+      ]
+    },
+    {
+      "name": "YouTube search - Abdal-Hakim Murad",
+      "url": "ytsearch1000:Abdal-Hakim Murad",
+      "speaker_patterns": [
+        "\\babdal[-\\s]+hakim\\s+murad\\b",
+        "\\babdul[-\\s]+hakim\\s+murad\\b",
+        "\\babdul[-\\s]+hakeem\\s+murad\\b",
+        "\\bhakim\\s+murad\\b",
+        "\\bhakeem\\s+murad\\b",
+        "\\btimothy\\s+winter\\b"
+      ]
+    },
+    {
+      "name": "YouTube search - Timothy Winter lecture",
+      "url": "ytsearch1000:Timothy Winter lecture",
+      "speaker_patterns": [
+        "\\babdal\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakeem\\s+murad\\b",
+        "\\bhakim\\s+murad\\b",
+        "\\bhakeem\\s+murad\\b",
+        "\\btimothy\\s+winter\\b"
+      ]
+    },
+    {
+      "name": "YouTube search - Abdal Hakim Murad sermon",
+      "url": "ytsearch1000:Abdal Hakim Murad sermon",
+      "speaker_patterns": [
+        "\\babdal\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakim\\s+murad\\b",
+        "\\babdul\\s+hakeem\\s+murad\\b",
+        "\\bhakim\\s+murad\\b",
+        "\\bhakeem\\s+murad\\b",
+        "\\btimothy\\s+winter\\b"
+      ]
+    }
+  ]
+}

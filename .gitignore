@@ -1,0 +1,66 @@
+# ---- Secrets ----
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# ---- Generated data, databases, logs, media ----
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.webm
+*.ogg
+*.zip
+*.inspect.ndjson
+.tmp_*/
+node_modules/
+third_party/
+captions/
+metadata_snapshots/
+pilot/
+audio_transcription_pilot/
+lecture_expansion/
+frozen_dataset/
+worldview_corpus/
+outputs/
+reports/
+tmp/
+output/
+deliverables/
+new_sample/
+
+# ---- Automation / background-run scripts (not part of the shared code) ----
+run_caption_collection_background.py
+run_finalization_background.py
+run_remaining_pilot.py
+run_fresh_asr_candidates.py
+update_research_documentation.py
+test_run_remaining_pilot.py
+
+# ---- PDF / manual-review builders (not part of the shared code) ----
+create_full_lecture_review_pdf.py
+create_manual_review_pdf.py
+build_manual_review_sample.py
+
+# ---- Earlier experiments (V1-V3): described in the report, code not published ----
+transcription_pipeline_versions/v1_*/
+transcription_pipeline_versions/v2_*/
+transcription_pipeline_versions/v3_*/
+correct_islamic_terms.py
+generate_report.py
+whisper_test.py
+
+# ---- Local IDE / OS files ----
+.vscode/
+.idea/
+.agents/
+.DS_Store
+Thumbs.db
