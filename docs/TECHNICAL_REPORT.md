@@ -3,9 +3,10 @@
 ## Technical Report: Transcription and Corpus Pipeline for Islamic Lectures
 
 **Author:** Sumaya Hashim, SMART Labs
+**Supervisor:** Shahzada Muhammad Ali, SMART Labs
 **Date:** 20 September 2026
 **Status:** Work paused and handed over for someone else to continue
-**Code repository:** `improving-llm-fairness-factuality-domain-specific-retrieval` (code only: no audio, transcripts, databases or passwords)
+**Code repository:** https://github.com/SpunkySam-cyber/improving-llm-fairness-factuality-domain-specific-retrieval (code only: no audio, transcripts, databases or passwords)
 
 ---
 
@@ -467,7 +468,7 @@ A **third LLM call** was also discussed for this pipeline. Its exact job was not
 
 **Stage 8: choose and freeze the final setup.** Pick where the term list fits and which model to use. Freeze the prompts, database design, term list version and test data. Write up the results. Only then process more lectures, with approval for each batch.
 
-**More lectures.** The plan was to grow the processed set to about 50 lectures in four steps of ten. Batch 1 is the first. Batch 2 was on hold until the three chunks flagged in Batch 1 are checked by ear.
+**More lectures.** The target was to grow the processed set to about 50 lectures, in steps of ten. Batch 1 is the first. Batch 2 was on hold until the three chunks flagged in Batch 1 are checked by ear.
 
 **Chunk database.** The plan also called for a database view showing the column names and one real saved row. This was done in Stage 4, and the output files stayed in the working folder and are not in this repository.
 
@@ -476,7 +477,7 @@ A **third LLM call** was also discussed for this pipeline. Its exact job was not
 - Generate likely user questions from the collection. This was to wait until the transcription process is complete. It was not yet decided whether these questions would be used for training, for testing, or both.
 - Turn the checked text into a vector database (chunk embeddings with links back to the video and time), and build the domain-specific RAG chatbot on top of it.
 - Possibly add voice input to the question-answering system.
-- Test the chatbot against general chat tools on specialist Islamic topics. This is the main research question, and the original aim included publishing the results if they are strong.
+- Test the chatbot against general chat tools on specialist Islamic topics. This is the main research question, and the original aim included publishing the results if they are strong. That step is left for the next team or future work.
 
 ### 13.3 Suggested order for the next person
 
