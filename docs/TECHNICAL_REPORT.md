@@ -5,7 +5,6 @@
 **Author:** Sumaya Hashim, SMART Labs
 **Supervisor:** Shahzada Muhammad Ali, SMART Labs
 **Date:** 20 September 2026
-**Status:** Work paused and handed over for someone else to continue
 **Code repository:** https://github.com/SpunkySam-cyber/improving-llm-fairness-factuality-domain-specific-retrieval (code only: no audio, transcripts, databases or passwords)
 
 ---
